@@ -14,12 +14,12 @@ def take_a_number
   
 end 
 
-def now_serving(order)
+def now_serving(order, name)
   index = 1
   if order[0] == nil
     puts "The line is currently empty."
   else
-    order.each{ |name| 
-        if }
+    order.each do 
+      if order
   end
 end 
