@@ -20,7 +20,6 @@ def now_serving(order)
     puts "The line is currently empty."
   else
     order.each{ |name| 
-        if 
-        index += 1}
+        if }
   end
 end 
