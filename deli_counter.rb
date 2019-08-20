@@ -14,6 +14,13 @@ def take_a_number
   
 end 
 
-def now_serving
-  
+def now_serving(order)
+  index = 1
+  if order[0] == nil
+    puts "The line is currently empty."
+  else
+    order.each{ |name| 
+        puts " #{index}. #{name}"
+        index += 1}
+  end
 end 
